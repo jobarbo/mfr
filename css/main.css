@@ -5,18 +5,128 @@
    ========================================================================== */
 
 
+h1, h2, h3, h4, h5{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+a, p, li, ul{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    cursor: pointer;
+    text-decoration:none;
+    color:#188CFF;
+    font-weight: 600;
+    padding: 15px;
+    transition: all .5s;
+    border-radius: 25px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #188CFF;
+
+}
+
+body{
+    padding: 0;
+}
+
+section{
+    display: flex;
+}
+#nav, #hero, #engagement, #experience, #approche, #formation, #contact{
+    padding: 3%;
+}
+
+#nav{
+    
+    justify-content: space-between;
+}
+#hero, #contact{
+    align-items: center;
+    justify-content: center;
+
+}
+#engagement, #formation, #contact{
+    background-color: #188CFF;
+    color: white;
+}
 
 
 
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+.logo{
+    color:#188CFF;
+}
+.logo h3{
+    margin-top: 0;
+}
+.menu{
+    display: flex;
+    width: 40%;
+    margin-right: 5%;
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width:100%;
+    justify-content: space-between;
+}
+
+.menu li{
+    align-self: center;
+
+}
 
 
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.image-container{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 25px;
 
+}
+.image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100px;
+    background-image: url('../img/toile.jpg');
+    background-position: top center;
+    background-size: cover;
+}
 
+.center{
+    text-align: center;
+    color:#188CFF;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 
+#experience h3, #approche h3{
+    color:#188CFF;
+}
 
+footer{
+    text-align: center;
+}
 
-
-
-
-
+footer a{
+    color: white;
+}
 
