@@ -15,7 +15,7 @@ a, p, li, ul{
 a{
     cursor: pointer;
     text-decoration:none;
-    color:#188CFF;
+    color:#0957a5;
     font-weight: 600;
     padding: 15px;
     transition: all .5s;
@@ -24,12 +24,13 @@ a{
 a:hover{
     text-decoration: none;
     color: white;
-    background-color: #188CFF;
+    background-color: #0957a5;
 
 }
 
 body{
     padding: 0;
+    
 }
 
 section{
@@ -49,8 +50,12 @@ section{
 
 }
 #engagement, #formation, #contact{
-    background-color: #188CFF;
+    background-color: #0957a5;
     color: white;
+}
+
+.wrapper{
+    position: relative;
 }
 
 
@@ -59,7 +64,7 @@ section{
    Navigation
    ========================================================================== */
 .logo{
-    color:#188CFF;
+    color:#0957a5;
 }
 .logo h3{
     margin-top: 0;
@@ -105,21 +110,21 @@ section{
 }
 
 .center{
+    position: relative;
     text-align: center;
-    color:#188CFF;
+    color:#0957a5;
+    width: 100%;
 }
 #particles-js{
   width: 100%;
-  height: 100%;
-  background-color: whitesmoke;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  height: 90%;
+  position: relative;
+  z-index: -1;
+  position: absolute;
 }
 
 #experience h3, #approche h3{
-    color:#188CFF;
+    color:#0957a5;
 }
 
 footer{
