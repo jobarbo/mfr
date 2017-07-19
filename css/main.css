@@ -140,7 +140,7 @@ section{
   height: 90%;
   position: relative;
   z-index: -1;
-  position: absolute;
+  position: fixed;
 }
 
 #experience h3, #approche h3{
