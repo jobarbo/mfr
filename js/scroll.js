@@ -8,21 +8,22 @@ $('.hamburger').click(function(){
     $('.menu_text').text('Menu');
   }
   $('.menu').toggleClass('activated');
-  
+
 });
 
-$('.anchor').click(function(){
+$('.anchor').click(function(e){
   $('.menu').toggleClass('activated');
   toggled=false;
   $('.menu_text').text('Menu');
-  $elementName = event.target.name;
-  $('body').animate({
+  $elementName = e.target.name;
+  $('body, html').animate({
     fade:  $(".wrapper").children(':not(#' + $elementName+')').addClass('faded'),
     scrollTop: $('#' + $elementName).offset().top
   },'1000', function() {
     $('#'+$elementName).toggleClass('highlite');
     setTimeout(setHighlite,500);
   });
+  return false;
 });
 
 var setHighlite = function(){
