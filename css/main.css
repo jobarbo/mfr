@@ -45,6 +45,10 @@ body {
 section {
     display: -webkit-flex;
     display: flex;
+    justify-content: center;
+}
+section div{
+    max-width: 1440px;
 }
 
 #nav,
@@ -56,8 +60,11 @@ section {
 #contact {
     transition: all 1.5s;
     padding: 3%;
+    font-size: 18px;
 }
-
+#hero{
+    height: 90vh;
+}
 #nav {
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -71,7 +78,7 @@ section {
 }
 
 .info p {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 #contact a,
