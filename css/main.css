@@ -63,6 +63,7 @@ section div{
     font-size: 18px;
 }
 #hero{
+    padding-top: 0;
     height: 90vh;
 }
 #nav {
@@ -133,7 +134,7 @@ section div{
 .menu {
     display: -webkit-flex;
     display: flex;
-    width: 40%;
+    width: 50%;
     margin-right: 5%;
 }
 
